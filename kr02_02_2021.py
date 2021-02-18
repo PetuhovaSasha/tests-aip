@@ -40,10 +40,7 @@ def task_4_3(words):
 
 
 def task_5(lst1, lst2):
-    """
-      print(sorted(set(lst1().split()) & set(lst2().split()), key=int))
-        """
-
+      diff = print(sorted(set(lst1(9 4 5 2).split()) & set(lst2(2 4 5 6).split()), key=int))
     return diff
 
 
