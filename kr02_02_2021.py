@@ -9,16 +9,6 @@ def task_1(two_dim_words):
     return sorted_words
 
 
-def task_3(numbers):
-    """
-        Здесь должен быть ваш код.
-        Переменная numbers - ваша строка чисел.
-        Финальное значение должно быть помещено в переменную dict_min.
-        """
-
-    return dict_min
-
-
 def task_4_1(words):
     """
         Здесь должен быть ваш код.
@@ -51,9 +41,7 @@ def task_4_3(words):
 
 def task_5(lst1, lst2):
     """
-        Здесь должен быть ваш код.
-        Переменные lst1 и lst2 - два данных списка.
-        Финальное значение должно быть помещено в переменную diff.
+      print(sorted(set(lst1().split()) & set(lst2().split()), key=int))
         """
 
     return diff
